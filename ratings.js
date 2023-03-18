@@ -40,6 +40,6 @@ function fill_ratings() {
     })
 }
 
-window.addEventListener('load',() => {
-  fill_ratings()
-});
+// window.addEventListener('load',() => {
+//   fill_ratings()
+// });

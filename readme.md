@@ -8,7 +8,7 @@ This repository contains examples for using Dgolf API
 Add following code to your tournament page on idiscgolf.cz to display Dgolf rating for registered players
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/syky9/dgolf_js_api/ratings_all.js">
+<script src="https://cdn.jsdelivr.net/gh/syky9/dgolf_js_api/src/ratings_all.js">
     window.addEventListener('load',() => {
         fill_ratings()
     });
@@ -20,7 +20,7 @@ Add following code to your tournament page on idiscgolf.cz to display Dgolf rati
 Add following code to your profile details on idiscgolf to display your Dgolf rating
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/syky9/dgolf_js_api/profile_rating.js">
+<script src="https://cdn.jsdelivr.net/gh/syky9/dgolf_js_api/src/profile_rating.js">
     window.addEventListener('load',() => {
         fill_profile_player_rating()
     });

@@ -9,9 +9,6 @@ Add following code to your tournament page on idiscgolf.cz to display Dgolf rati
 
 ```
 <script src="https://cdn.jsdelivr.net/gh/syky9/dgolf_js_api/src/ratings_all.js">
-    window.addEventListener('load',() => {
-        fill_ratings()
-    });
 </script>
 ```
 
@@ -21,9 +18,6 @@ Add following code to your profile details on idiscgolf to display your Dgolf ra
 
 ```
 <script src="https://cdn.jsdelivr.net/gh/syky9/dgolf_js_api/src/profile_rating.js">
-    window.addEventListener('load',() => {
-        fill_profile_player_rating()
-    });
 </script>
 ```
 

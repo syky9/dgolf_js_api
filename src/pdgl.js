@@ -50,7 +50,7 @@ function division_badge(division) {
 			badge = '<span id="gvRegistrovani_lblDivisionCode_0" class="table-badge bg-bogey">MA3</span>'
 			break;
 		case 'MA4':
-			badge = '<span id="gvRegistrovani_lblDivisionCode_0" class="table-badge bg-double-bogey">MA4</span>'
+			badge = '<span id="gvRegistrovani_lblDivisionCode_0" class="table-badge bg-triple-bogey">MA4</span>'
 			break;
 		default:
 			badge = '<span id="gvRegistrovani_lblDivisionCode_0" class="table-badge bg-primary">#</span>'
@@ -78,7 +78,7 @@ function redraw_badges() {
 				badge.classList.add('bg-bogey')
 				break;
 			case 'MA4':
-				badge.classList.add('bg-double-bogey')
+				badge.classList.add('bg-triple-bogey')
 				break;
 			default:
 				badge.classList.add('bg-primary')

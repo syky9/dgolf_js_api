@@ -80,9 +80,6 @@ function redraw_badges() {
 			case 'MA4':
 				badge.classList.add('bg-triple-bogey')
 				break;
-			default:
-				badge.classList.add('bg-primary')
-				break;
 		}
 	}
 }
